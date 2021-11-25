@@ -1,3 +1,9 @@
+#INDEX.HTML
+<h1>React testing</h1>
+<div id="rootapp"></div>
+<div id="button"></div>
+
+#INDEX.JS
 # CONDICIONES;
 
 import React from 'react';
@@ -31,7 +37,7 @@ const Greeting = ()=>{
 //    </div>
 //  )
     
- 
+
 
 //  componenete 'Greeting' dentro de otro componente 'App';
 const App = () => {
@@ -54,6 +60,8 @@ render(<App />, document.getElementById('rootapp'));
 render(<Button />, document.getElementById('button'));
 
 
+
+#CICLOS;
 
 
 
