@@ -7,10 +7,10 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-// metodo Fucional;
+// metodo componente Fucional;
 // const App = () => <h1>Hello world!</h1>;
 
-// metodo Render;
+// metodo componente Render;
 class App extends Component {
   render() {
     return <h1>Hello World!</h1>;
