@@ -1,9 +1,9 @@
-//INDEX.HTML file
+#INDEX.HTMLfile
 <h1>React testing</h1>
 <div id="rootapp"></div>
 
 
-//INDEX.JS file
+#INDEX.JSfile
 import React from 'react';
 import { render } from 'react-dom';
 
