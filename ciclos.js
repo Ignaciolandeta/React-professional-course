@@ -1,9 +1,9 @@
-#INDEX.HTML
+//INDEX.HTML file
 <h1>React testing</h1>
 <div id="rootapp"></div>
 
 
-#INDEX.JS
+//INDEX.JS file
 import React from 'react';
 import { render } from 'react-dom';
 
@@ -21,6 +21,12 @@ function getNames2() {
 const Names2 = () => {
   return <ul> {getNames2()} </ul>;
 };
+  
+const Names2 = () => {
+  return <ul> {
+    names1.map( name => <li>{name}</li>)
+    } </ul>;
+}
 
 const App = () => {
   return (
