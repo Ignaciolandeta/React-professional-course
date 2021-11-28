@@ -1,10 +1,10 @@
-#INDEX.HTML
+//INDEX.HTML
 <h1>React testing</h1>
 <div id="rootapp"></div>
 <div id="button"></div>
 
-#INDEX.JS
-#CONDICIONES;
+//INDEX.JS
+//CONDICIONES;
 
 import React from 'react';
 import { render } from 'react-dom';
